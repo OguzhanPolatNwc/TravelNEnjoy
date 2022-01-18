@@ -13,6 +13,7 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
+              <Node name="wwwroot" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
