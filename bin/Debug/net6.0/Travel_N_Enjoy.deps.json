@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Travel_N_Enjoy/1.0.0": {
+        "runtime": {
+          "Travel_N_Enjoy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Travel_N_Enjoy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,592 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Travel-N-Enjoy - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/img/favicon.png" rel="icon">
+  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet" >
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  <!--Fontawesome CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  
+  <!--LightBox CSS-->
+  <link rel="stylesheet" href="css/lightbox.css">
+  
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+  div{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+  }
+  </style>
+  <!-- =======================================================
+  * Template Name: Sailor - v4.7.0
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+<i class="fas fa-search"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a asp-controller="Home" asp-action="Index"><img src="/img/Logo.png" height="175" width="125"/></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="#" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+
+          <li><a href="#">Blog</a></li>
+
+          <li class="dropdown"><a href="#"><span>Travel</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+             <li><a asp-controller="Travel" asp-action="Accomodation">Accomodation</a></li>
+             <li><a asp-controller="Travel" asp-action="Transportation">Transportation</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Enjoy</span> <i class="bi bi-chevron-down"></i></a>
+            <ul> 
+             <li><a asp-controller="Enjoy" asp-action="Amusement">Amusement</a></li>          
+             <li><a asp-controller="Enjoy" asp-action="Courses">Courses</a></li>             
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Country</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a asp-controller="Country" asp-action="Australia">Australia</a></li>
+              <li><a asp-controller="Country" asp-action="UnitedStates">United States</a></li>
+              <li><a asp-controller="Country" asp-action="SouthAfrica">South Africa</a></li>              
+              <li class="dropdown"><a href="#"><span>Europe</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a asp-controller="Country" asp-action="Germany">Germany</a></li>
+                  <li><a asp-controller="Country" asp-action="Spain">Spain</a></li>
+                  <li><a asp-controller="Country" asp-action="Italy">Italy</a></li>
+                  <li><a asp-controller="Country" asp-action="France">France</a></li>
+                  <li><a asp-controller="Country" asp-action="Turkey">Turkey</a></li>
+                  <li><a asp-controller="Country" asp-action="UnitedKingdom">United Kingdom</a></li>
+                  <li><a asp-controller="Country" asp-action="Belgium">Belgium</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Cart</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a asp-controller="Payment" asp-action="Bill" >Payment</a></li>
+              <li><a asp-controller="Payment" asp-action="MyOrder">My Order</a></li>
+              <li><a asp-controller="Payment" asp-action="myCard">My Cards</a></li>
+            </ul>
+          </li>
+          
+          <li class="dropdown"><a href="#"><span>Authorization</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a asp-controller="Authorization" asp-action="Register">Register</a></li>
+              <li><a asp-controller="Authorization" asp-action="Login" >Login</a></li>
+              <li><a asp-controller="Authorization" asp-action="Password">Forgot Password</a></li>
+            </ul>
+          </li>         
+
+          <li class="dropdown"><a href="#"><span>Information</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a asp-controller="Information" asp-action="Settings">Settings</a></li>
+                  <li><a asp-controller="Information" asp-action="Contact">Contact</a></li>
+                  <li><a href="#" class="getstarted mr-10">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i></ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+<!-- ======= Hero Section ======= -->
+  <section  id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(img/slide/T1.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Travel</span><span class="text-danger">`N`</span><span>Enjoy</span></h2>
+              <p class="animate__animated animate__fadeInUp">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              <a asp-controller="ReadMore" asp-action="Read" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(img/slide/T2.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">lorem Ipsum Dolor</h2>
+              <p class="animate__animated animate__fadeInUp">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+              <a asp-controller="ReadMore" asp-action="Read" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(img/slide/T3.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+              <p class="animate__animated animate__fadeInUp">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+              <a asp-controller="ReadMore" asp-action="Read" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 offset-2">
+            <form>
+              <div class="input-group input-group-lg">
+                <input type="email" class="form-control rounded-2 border-danger text-danger bg-transparent" placeholder="JOIN NEWSLETTER"/>
+                <span class="input-group-btn input-group-lg" >
+                  <input type="submit" class="btn btn-danger text-danger bg-transparent border-danger" value="SUBSCRIBE"/>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+  
+  <div class="Latest-news">
+    <div class="Latest-news-title">
+      <h4>LATEST NEWS</h4>
+    </div>
+    <div class="latest-new-content">
+      <marquee>
+        <div class="news-ticker">
+          <p><span class="badge">NEWS</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p><span class="badge badge-1">NEWS</span>Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          <p><span class="badge badge-2">NEWS</span>At vero eos et accusamus et iusto odio dignissimos 
+            ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+        </div>
+      </marquee>
+    </div>
+  </div>
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h4><a href="#">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-pin-map"></i>
+              <h4><a href="#">Dolor Sitema</a></h4>
+              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-list-check"></i>
+              <h4><a href="#">Sed ut perspiciatis</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-moisture"></i>
+              <h4><a href="#">Nemo Enim</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-wallet2"></i>
+              <h4><a href="#">Magni Dolore</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-calendar2-check"></i>
+              <h4><a href="#">Eiusmod Tempor</a></h4>
+              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+
+    <div class="row">
+      <div class="col-md-6 offset-md-3 text-center">
+        <div class="section-top">
+          <h2>OUR TRAVELLERS</h2>
+          <hr>
+          <p>We Are Travel Guys is a community created to inspire, connect, educate and ... Our site is a go-to resource for female travel tips and advice, meet-ups and ... to connect travel loving lfe, share travel advice on the blog and encourage</p>
+        </div>
+      </div>
+    </div>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">ALL</li>
+            <li data-filter=".filter-app">WARM-CLIMATE</li>
+            <li data-filter=".filter-card">EUROPEAN CITIES</li>
+            <li data-filter=".filter-web">CAR-TRAVEL</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="img/locations/1a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>ABU DHABI</p>
+              <div class="portfolio-links">
+                <a href="img/locations/1a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="img/locations/2a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>ANTIGO ISLAND</p>
+              <div class="portfolio-links">
+                <a href="img/locations/2a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="img/locations/4a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>BAHAMAS</p>
+              <div class="portfolio-links">
+                <a href="img/locations/4a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="img/locations/3a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>BELGIUM</p>
+              <div class="portfolio-links">
+                <a href="img/locations/3a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="img/locations/5a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>UTAH</p>
+              <div class="portfolio-links">
+                <a href="img/locations/5a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="img/locations/6a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>ALGERIA</p>
+              <div class="portfolio-links">
+                <a href="img/locations/6a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="img/locations/7a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>PRAGUE</p>
+              <div class="portfolio-links">
+                <a href="img/locations/7a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="img/locations/8a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>BARCELONA</p>
+              <div class="portfolio-links">
+                <a href="img/locations/8a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="img/locations/9a.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>KUBA</p>
+              <div class="portfolio-links">
+                <a href="img/locations/9a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- End Portfolio Section -->
+  
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h4>Travel`N`Enjoy</h4>
+              <p>
+                Anywhere in the Universe <br>                
+                <strong>Phone:</strong> +0 000 000 00 00 <br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>              
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Rent a plane</a></li>              
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Ask someone who knows</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Use travel_planner</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Find a travel_mate</a></li>              
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Choose what is best for you </h4>
+            <!--  <input type="button" id="btn" class="btn btn-danger btn-sm" value="ENTERTAINING">
+                <input type="button" id="btn1" class="btn btn-warning btn-sm" value="CULTURE">
+                <input type="button" id="btn2" class="btn btn-success btn-sm" value="COASTLINE">
+                <input type="button" id="btn3" class="btn btn-primary btn-sm" value="LANDSCAPE">
+                <input type="button" id="btn4" class="btn btn-info btn-sm" value="ECONOMIC">
+                <input type="button" id="btn5" class="btn btn-info btn-sm" value="LUXURY">
+
+                <hr>  -->
+
+              <button type="button" id="btn" class="btn btn-outline-primary btn-sm mb-2">ENTERTAINING</button>
+              <button type="button" id="btn-1" class="btn btn-outline-secondary btn-sm mb-2">CULTURE</button>
+              <button type="button" id="btn-2" class="btn btn-outline-success btn-sm mb-2">COASTLINE</button>
+              <button type="button" id="btn-3" class="btn btn-outline-danger btn-sm mb-2">LANDSCAPE</button>
+              <button type="button" id="btn-4" class="btn btn-outline-warning btn-sm mb-2">ECONOMIC</button>
+              <button type="button" id="btn-5" class="btn btn-outline-info btn-sm mb-2">LUXURY</button>
+              <div id="message"></div>
+
+              <script>
+                const btn = document.getElementById("btn");
+                let btn_1 = document.getElementById("btn-1");
+                let btn_2 = document.getElementById("btn-2");
+                let btn_3 = document.getElementById("btn-3");
+                let btn_4 = document.getElementById("btn-4");
+                let btn_5 = document.getElementById("btn-5");
+                let message = document.querySelector("#message");
+
+                btn.addEventListener('click', function(){
+                  message.innerHTML= "The best countries for you to go are : "+
+                   " Australia, "+
+                   " United States,"+
+                   " Spain,"+
+                   " Italy,"+
+                   " United Kingdom,"+
+                   " Turkey, " +
+                   " Belgium, " +
+                   " For more information, please go Country section"     
+                });                    
+               btn_1.addEventListener('click', function(){
+                 message.innerHTML="The best countries for you to go are : " +
+                   " Turkey, "+
+                   " Spain, "+
+                   " Italy, "+
+                   " France "+
+                   " United Kingdom "+
+                   " Germany "+
+                   " For more information, please go Country section"                     
+               });
+             
+               btn_2.addEventListener('click', function(){
+                 message.innerHTML="The best countries for you to go are : " +
+                   " Spain, "+
+                   " Italy, "+
+                   " Australia, "+
+                   " Turkey, "+
+                   " United States, "+
+                   " South Africa, "+
+                   " For more information, please go Country section"   
+               });
+               
+               btn_3.addEventListener('click', function(){
+                 message.innerHTML="The best countries for you to go are : " +
+                   " Spain, "+
+                   " Italy, "+
+                   " France, "+
+                   " Turkey, "+
+                   " United States,"+
+                   " South Africa,"+
+                   " For more information, please go Country section"  
+               });        
+              
+               btn_4.addEventListener('click', function(){
+                 message.innerHTML="The best countries for you to go are : " +
+                   " Turkey, "+
+                   " Spain, "+
+                   " Italy, "+
+                   " France, "+
+                   " Belgium, "+
+                   " United Kingdom, "+
+                   " Germany, "+
+                   " For more information, please go Country section"  
+               });
+               
+               btn_5.addEventListener('click', function(){
+                 message.innerHTML="The best countries for you to go are : " +
+                   " France, "+
+                   " United States, "+
+                   " Italy, "+
+                   " Belgium, "+
+                   " United Kingdom, "+
+                   " For more information, please go Country section"  
+               });                               
+
+              </script>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="credits">
+        Designed by <a>Oguzhan Polat</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
