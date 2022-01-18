@@ -2,17 +2,18 @@
   <MonoDevelop.Ide.ItemProperties.Travel__N__Enjoy PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Index.cshtml">
     <Files>
-      <File FileName="Views/Home/Index.cshtml" Line="291" Column="43" />
+      <File FileName="Views/Home/Index.cshtml" Line="287" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Travel_N_Enjoy" expanded="True" selected="True">
+          <Node name="Travel_N_Enjoy" expanded="True">
             <Node name="Travel_N_Enjoy" expanded="True">
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
