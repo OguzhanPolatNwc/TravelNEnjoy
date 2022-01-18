@@ -14,7 +14,7 @@
         "outputPath": "/Users/oguzhanpolat/Documents/Travel_N_Enjoy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/oguzhanpolat/.config/NuGet/NuGet.Config"
+          "/Users/oguzhanpolat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
